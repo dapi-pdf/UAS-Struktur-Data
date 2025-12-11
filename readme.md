@@ -8,7 +8,7 @@
 
 # 📸 Screenshot Program
 
-![Screenshot Program ketika Di Run](/img/run_program.png)
+![Screenshot Program ketika Di Run](img/run_program.png)
 
 # 📂 Struktur Folder
 ```
