@@ -1,4 +1,3 @@
-// File: avl.h
 #ifndef AVL_H
 #define AVL_H
 

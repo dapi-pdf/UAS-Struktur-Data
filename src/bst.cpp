@@ -1,4 +1,3 @@
-// File: bst.cpp
 #include <iostream>
 #include <fstream>
 #include <algorithm>

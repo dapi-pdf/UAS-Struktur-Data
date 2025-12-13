@@ -1,4 +1,3 @@
-// File: main.cpp
 #include <iostream>
 #include <string>
 #include <limits>
@@ -6,7 +5,6 @@
 #include "../header/avl.h"
 #include "../header/book.h"
 
-// helper to read a line safely
 static void readLine(const std::string& prompt, std::string& out) {
     std::cout << prompt;
     std::getline(std::cin, out);

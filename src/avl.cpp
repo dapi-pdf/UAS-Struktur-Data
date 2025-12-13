@@ -10,8 +10,13 @@ static std::string toLowerA(const std::string& s) {
     return r;
 }
 
-int height(AVLNode* n) { return n ? n->height : 0; }
-int balanceFactor(AVLNode* n) { return n ? height(n->left) - height(n->right) : 0; }
+int height(AVLNode* n) { 
+    return n ? n->height : 0; 
+}
+
+int balanceFactor(AVLNode* n) { 
+    return n ? height(n->left) - height(n->right) : 0; 
+}
 
 AVLNode* create_anode(const Book& b) {
     AVLNode* n = new AVLNode{b, nullptr, nullptr, 1};
@@ -47,7 +52,7 @@ AVLNode* avl_insert(AVLNode* node, const Book& b) {
 
     node->height = 1 + std::max(height(node->left), height(node->right));
     int bf = balanceFactor(node);
-
+        
     // LL
     if (bf > 1 && toLowerA(b.title) < toLowerA(node->left->data.title))
         return rightRotate(node);
