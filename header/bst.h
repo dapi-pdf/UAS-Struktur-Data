@@ -4,9 +4,9 @@
 #include "book.h"
 
 struct BSTNode {
-Book data;
-BSTNode* left;
-BSTNode* right;
+  Book data;
+  BSTNode* left;
+  BSTNode* right;
 };
 
 BSTNode* bst_insert(BSTNode* root, const Book& b);
