@@ -23,7 +23,7 @@ UAS/
 ├── header/              # Berisi file header (.h)
 │   ├── book.h
 │   ├── bst.h
-│   ├── avl.h
+│   └── avl.h
 │
 └── README.md            # Dokumentasi project
 ```
