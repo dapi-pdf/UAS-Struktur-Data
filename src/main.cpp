@@ -38,6 +38,16 @@ Book sample_books[] = {
     {10, "Structure and Interpretation of Computer Programs", "Abelson & Sussman", 1996}
 };
 
+void print_nama(){
+    std::cout << "=====================================\n";
+    std::cout << "||   PROGRAM PENCARIAN BUKU BST    ||\n";
+    std::cout << "||        & AVL TREE               ||\n";
+    std::cout << "||   Dibuat oleh:                  ||\n";
+    std::cout << "||   1. Nama: Davi Firdaus Handara ||\n";
+    std::cout << "||   2. Nama: Steve Ulrich         ||\n";
+    std::cout << "=====================================\n";
+}
+
 void print_main_menu() {
     std::cout << "\n=== SISTEM PENCARIAN BUKU (BST & AVL) ===\n";
     std::cout << "1. Gunakan BST (Binary Search Tree)\n";
@@ -65,6 +75,7 @@ int main() {
     }
 
     while (true) {
+        print_nama();
         print_main_menu();
         int choice = readInt("Pilih: ");
         if (choice == 0) break;
